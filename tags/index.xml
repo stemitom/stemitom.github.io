@@ -6,88 +6,7 @@
     <description>Recent content in Tags on Temiloluwa&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://stemitom.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Istio</title>
-      <link>https://stemitom.github.io/tags/istio/</link>
-      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://stemitom.github.io/tags/istio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ubuntu</title>
-      <link>https://stemitom.github.io/tags/ubuntu/</link>
-      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://stemitom.github.io/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Microservice</title>
-      <link>https://stemitom.github.io/tags/microservice/</link>
-      <pubDate>Wed, 23 May 2018 18:00:00 +0000</pubDate>
-      
-      <guid>https://stemitom.github.io/tags/microservice/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Security</title>
-      <link>https://stemitom.github.io/tags/security/</link>
-      <pubDate>Wed, 23 May 2018 18:00:00 +0000</pubDate>
-      
-      <guid>https://stemitom.github.io/tags/security/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kubernetes</title>
-      <link>https://stemitom.github.io/tags/kubernetes/</link>
-      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://stemitom.github.io/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Travel</title>
-      <link>https://stemitom.github.io/tags/travel/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://stemitom.github.io/tags/travel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Helm</title>
-      <link>https://stemitom.github.io/tags/helm/</link>
-      <pubDate>Mon, 16 Apr 2018 15:00:00 +0000</pubDate>
-      
-      <guid>https://stemitom.github.io/tags/helm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>API Gateway</title>
-      <link>https://stemitom.github.io/tags/api-gateway/</link>
-      <pubDate>Wed, 11 Apr 2018 09:32:00 +0000</pubDate>
-      
-      <guid>https://stemitom.github.io/tags/api-gateway/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>service Mesh</title>
-      <link>https://stemitom.github.io/tags/service-mesh/</link>
-      <pubDate>Wed, 11 Apr 2018 09:32:00 +0000</pubDate>
-      
-      <guid>https://stemitom.github.io/tags/service-mesh/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Tue, 13 Mar 2018 18:00:00 +0000</lastBuildDate><atom:link href="https://stemitom.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker</title>
       <link>https://stemitom.github.io/tags/docker/</link>
@@ -116,11 +35,29 @@
     </item>
     
     <item>
+      <title>Istio</title>
+      <link>https://stemitom.github.io/tags/istio/</link>
+      <pubDate>Tue, 02 Jan 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://stemitom.github.io/tags/istio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>nginmesh</title>
       <link>https://stemitom.github.io/tags/nginmesh/</link>
       <pubDate>Tue, 02 Jan 2018 12:00:00 +0000</pubDate>
       
       <guid>https://stemitom.github.io/tags/nginmesh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>service Mesh</title>
+      <link>https://stemitom.github.io/tags/service-mesh/</link>
+      <pubDate>Tue, 02 Jan 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://stemitom.github.io/tags/service-mesh/</guid>
       <description></description>
     </item>
     

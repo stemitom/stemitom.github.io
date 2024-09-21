@@ -382,42 +382,42 @@
 <p>Envoy是以C ++开发的高性能代理，用于调解服务网格中所有服务的所有入站和出站流量。Envoy的许多内置功能被Istio发扬光大，例如动态服务发现，负载均衡，TLS加密，HTTP/2 &amp; gRPC代理，熔断器，路由规则，故障注入和遥测等。</p>
 <p>Istio数据面支持的特性如下：</p>
 <table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Outbound特性</th>
-          <th style="text-align: left">Inbound特性</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left">Service authentication（服务认证）</td>
-          <td style="text-align: left">Service authentication（服务认证）</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Load Balancing（负载均衡）</td>
-          <td style="text-align: left">Authorization（鉴权）</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Retry and circuit breaker（重试和断路器）</td>
-          <td style="text-align: left">Rate limits（请求限流）</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Fine-grained routing（细粒度的路由）</td>
-          <td style="text-align: left">Load shedding（负载控制）</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Telemetry（遥测）</td>
-          <td style="text-align: left">Telemetry（遥测）</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Request Tracing（分布式追踪）</td>
-          <td style="text-align: left">Request Tracing（分布式追踪）</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Fault Injection（故障注入）</td>
-          <td style="text-align: left">Fault Injection（故障注入）</td>
-      </tr>
-  </tbody>
+<thead>
+<tr>
+<th>Outbound特性</th>
+<th>Inbound特性</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Service authentication（服务认证）</td>
+<td>Service authentication（服务认证）</td>
+</tr>
+<tr>
+<td>Load Balancing（负载均衡）</td>
+<td>Authorization（鉴权）</td>
+</tr>
+<tr>
+<td>Retry and circuit breaker（重试和断路器）</td>
+<td>Rate limits（请求限流）</td>
+</tr>
+<tr>
+<td>Fine-grained routing（细粒度的路由）</td>
+<td>Load shedding（负载控制）</td>
+</tr>
+<tr>
+<td>Telemetry（遥测）</td>
+<td>Telemetry（遥测）</td>
+</tr>
+<tr>
+<td>Request Tracing（分布式追踪）</td>
+<td>Request Tracing（分布式追踪）</td>
+</tr>
+<tr>
+<td>Fault Injection（故障注入）</td>
+<td>Fault Injection（故障注入）</td>
+</tr>
+</tbody>
 </table>
 <blockquote>
 <p>备注：Outbound特性是指服务请求侧的Sidecar提供的功能特性，而Inbound特性是指服务提供侧Sidecar提供的功能特性。一些特性如遥测和分布式跟踪需要两侧的Sidecar都提供支持；而另一些特性则只需要在一侧提供，例如鉴权只需要在服务提供侧提供，重试只需要在请求侧提供。</p>
@@ -508,7 +508,7 @@ Envoy收集一个端到端调用中的各个分段的数据，并将这些调用
 <div class="zs-modal-box">
 	<div class="zs-modal-head">
 		<button type="button" class="close">×</button>
-		<span class="author"><a href="https://zhaohuabing.com/"><img src="/img/favicon.png" />Huabing Blog</a></span>
+		<span class="author"><a href="https://zhaohuabing.com"><img src="/img/favicon.png" />Huabing Blog</a></span>
         
 	        <p class="tip"><i></i><span>真诚赞赏，手留余香</span></p>
 		
@@ -557,6 +557,25 @@ Envoy收集一个端到端调用中的各个分段的数据，并将这些调用
                 
 
                 
+
+
+
+
+<link href="https://xxx.xxx.com/dist/Artalk.css" rel="stylesheet" />
+<script src="https://xxx.xxx.com/dist/Artalk.js"></script>
+
+
+<div id="Comments"></div>
+
+<script>
+    Artalk.init({
+        el: '#Comments',
+        pageKey: 'https:\/\/zhaohuabing.com\/2018\/03\/29\/what-is-service-mesh-and-istio\/',
+        pageTitle: '谈谈微服务架构中的基础设施：Service Mesh与Istio',
+        server: 'https:\/\/xxx.xxx.com',
+        site: 'xxx blog',
+    })
+</script>
 
 
             </div>
@@ -629,8 +648,8 @@ Envoy收集一个端到端调用中的各个分段的数据，并将这些调用
                         
                         
                         
-                        <a href="/tags/service-mesh" title="service mesh">
-                            service mesh
+                        <a href="/tags/service-mesh" title="service-mesh">
+                            service-mesh
                         </a>
                         
                         
@@ -674,7 +693,7 @@ Envoy收集一个端到端调用中的各个分段的数据，并将这些调用
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">                  
+                <ul class="list-inline text-center">
                     
                     <li>
                         <a href="mailto:youremail@gmail.com">

@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     
-    <meta property="og:site_name" content="Huabing Blog">
+    <meta property="og:site_name" content="Temiloluwa Blog">
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="https://zhaohuabing.com/img/home-bg-jeep.jpg">
-    <meta property="twitter:image" content="https://zhaohuabing.com/img/home-bg-jeep.jpg" />
+    <meta property="og:image" content="https://stemitom.github.io/img/home-bg-jeep.jpg">
+    <meta property="twitter:image" content="https://stemitom.github.io/img/home-bg-jeep.jpg" />
     
 
     
@@ -31,10 +31,10 @@
     
     
 
-    <meta name="keyword"  content="赵化冰, zhaohuabing, Zhaohuabing, , 赵化冰的网络日志, 赵化冰的博客, Zhaohuabing Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice">
+    <meta name="keyword"  content="Temiloluwa, Temiloluwa Adebowale, Temiloluwa Blog, Infra, Search, Python, Fastapi, Web, Golang, Databases, LLMs, Microservice">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Searches | 赵化冰的博客 | Zhaohuabing Blog</title>
+    <title>Searches | Temiloluwa Blog</title>
 
     <link rel="canonical" href="/search/">
 
@@ -88,7 +88,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Huabing Blog</a>
+            <a class="navbar-brand" href="/">Temiloluwa Blog</a>
         </div>
 
         
@@ -168,9 +168,9 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
                 <div class="site-heading">
-                    <h1>Huabing Blog </h1>
+                    <h1>Temiloluwa Blog </h1>
                     
-		    <span class="subheading">路在脚下，心向远方</span>
+		    <span class="subheading"></span>
                 </div>
             </div>
         </div>
@@ -191,115 +191,14 @@
             post-container
         ">
         
-            
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
-
-<div id="search-searchbar"></div>
- <div class="post-list" id="search-hits">
- </div>
-
+            <link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/_pagefind/pagefind-ui.js" type="text/javascript"></script>
+<div id="search"></div>
 <script>
-const search = instantsearch({
-  appId: '',
-  indexName: '',
-  apiKey: ''
-});
-
-const hitTemplate = function(hit) {
-
-
-  let date = '';
-  if (hit.date) {
-    date = moment.unix(hit.date).format('MMM D, YYYY');
-  }
-  let url = `${hit.url}#${hit.anchor}`;
-  const title = hit._highlightResult.title.value;
-
-  let breadcrumbs = '';
-  if (hit._highlightResult.headings) {
-    breadcrumbs = hit._highlightResult.headings.map(match => {
-      return `<span class="post-breadcrumb">${match.value}</span>`
-    }).join(' > ')
-  }
-
-  let content = "" ; 
-  if (hit._highlightResult.content){
-      content = hit._highlightResult.content.value;
-  }
-  else{
-      content = hit.summary;
-  }
-
-
-  return `
-    <div class="post-item">
-      <span class="post-meta">${date}</span>
-      <h2><a class="post-link" href="${url}">${title}</a></h2>
-      <a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>
-      <div class="post-snippet">${content}</div>
-    </div>
-  `;
-}
-
-
-search.addWidget(
-  instantsearch.widgets.searchBox({
-    container: '#search-searchbar',
-    placeholder: 'Search into posts...',
-    poweredBy: true 
-  })
-);
-
-search.addWidget(
-  instantsearch.widgets.hits({
-    container: '#search-hits',
-    templates: {
-      item: hitTemplate
-    }
-  })
-);
-
-search.start();
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ element: "#search" });
+    });
 </script>
-
-<style>
-.ais-search-box {
-  max-width: 100%;
-  margin-bottom: 15px;
-}
-.post-item {
-  margin-bottom: 30px;
-}
-.post-link .ais-Highlight {
-  color: #111;
-  font-style: normal;
-  text-decoration: underline;
-}
-.post-breadcrumbs {
-  color: #424242;
-  display: block;
-}
-.post-breadcrumb {
-  font-size: 18px;
-  color: #424242;
-}
-.post-breadcrumb .ais-Highlight {
-  font-weight: bold;
-  font-style: normal;
-}
-.post-snippet .ais-Highlight {
-  color: #2a7ae2;
-  font-style: normal;
-  font-weight: bold;
-}
-.post-snippet img {
-  display: none;
-}
-</style>
-
         
        	</div>
         
@@ -322,13 +221,13 @@ search.start();
             </a>
             
             
-                <p>Software Developer, Open Source Enthusiast and Life Adventurer</p>
+                <p>Software Developer, Distributed Systems Enthusiast</p>
             
            
            <ul class="list-inline">
                
                <li>
-                   <a href="mailto:youremail@gmail.com">
+                   <a href="mailto:stemitom@gmail.com">
                       <span class="fa-stack fa-lg">
                           <i class="fa fa-circle fa-stack-2x"></i>
                           <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
@@ -337,22 +236,22 @@ search.start();
                </li>
                
                
-               
-               
-               
-               
                <li>
-                   <a target="_blank" href="/your%20wechat%20qr%20code%20image">
+                   <a href="https://twitter.com/stemitom_">
                        <span class="fa-stack fa-lg">
                            <i class="fas fa-circle fa-stack-2x"></i>
-                           <i class="fab fa-weixin fa-stack-1x fa-inverse"></i>
+                           <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
                        </span>
                    </a>
                </li>
                
                
+               
+               
+               
+               
                <li>
-                   <a target="_blank" href="https://github.com/yourgithub">
+                   <a target="_blank" href="https://github.com/stemitom">
                        <span class="fa-stack fa-lg">
                            <i class="fas fa-circle fa-stack-2x"></i>
                            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
@@ -364,7 +263,7 @@ search.start();
                
                
                <li>
-                   <a target="_blank" href="https://www.linkedin.com/in/yourlinkedinid">
+                   <a target="_blank" href="https://www.linkedin.com/in/stemitom">
                        <span class="fa-stack fa-lg">
                            <i class="fas fa-circle fa-stack-2x"></i>
                            <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -374,15 +273,6 @@ search.start();
                
                
                
-                    <li>
-                        <a target="_blank" href="https://stackoverflow.com/users/yourstackoverflowid">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-            
             
             
                
@@ -468,7 +358,7 @@ search.start();
         <h5>FRIENDS</h5>
         <ul class="list-inline">
             
-            <li><a target="_blank" href="https://zhaozhihan.com">Linda的博客</a></li>
+            <li><a target="_blank" href="https://eniola.wtf">Isaac Eniola</a></li>
             
         </ul>
     </section>
@@ -488,7 +378,7 @@ search.start();
                 <ul class="list-inline text-center">
                     
                     <li>
-                        <a href="mailto:youremail@gmail.com">
+                        <a href="mailto:stemitom@gmail.com">
                             <span class="fa-stack fa-lg">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
@@ -497,24 +387,24 @@ search.start();
                     </li>
 		           
                     
+                    <li>
+                        <a href="https://twitter.com/stemitom_">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
                     
                     
                     
 
 		            
                     
-                    <li>
-                        <a target="_blank" href="/your%20wechat%20qr%20code%20image">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-weixin fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-		            
                     
                     <li>
-                        <a target="_blank" href="https://github.com/yourgithub">
+                        <a target="_blank" href="https://github.com/stemitom">
                             <span class="fa-stack fa-lg">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-github fa-stack-1x fa-inverse"></i>
@@ -526,7 +416,7 @@ search.start();
                     
                     
                     <li>
-                        <a target="_blank" href="https://www.linkedin.com/in/yourlinkedinid">
+                        <a target="_blank" href="https://www.linkedin.com/in/stemitom">
                             <span class="fa-stack fa-lg">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -536,15 +426,6 @@ search.start();
 		           
                     
                     
-                    <li>
-                        <a target="_blank" href="https://stackoverflow.com/users/yourstackoverflowid">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
                     
                     
                     
@@ -553,18 +434,9 @@ search.start();
             
             
            
-                   <li>
-                       <a href='/search/index.xml' rel="alternate" type="application/rss+xml" title="Huabing Blog" >
-                           <span class="fa-stack fa-lg">
-                               <i class="fas fa-circle fa-stack-2x"></i>
-                               <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-                           </span>
-                       </a>
-                   </li>
-            
              </ul>
 		<p class="copyright text-muted">
-                    Copyright &copy; Huabing Blog 2024
+                    Copyright &copy; Temiloluwa Blog 2024
                     
                     <br>
                     <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
